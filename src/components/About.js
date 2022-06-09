@@ -1,7 +1,7 @@
 import React from "react";
 
 // import img
-import Image from "../assets/img/about.webp";
+import Image from "../assets/ezgif-1-d7736e23a1-removebg-preview.png";
 
 const About = () => {
   return (
@@ -18,19 +18,24 @@ const About = () => {
               <h2 className="text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3 before:content-about relative before:absolute before:opacity-40 before:-top-[2rem] before:hidden before:lg:block">
                 Eliyas Hossain
               </h2>
-              <p className="mb-4 text-accent">
-                Freelance Frontend Web Developer
+              <p className="mb-3 text-accent">
+                <span className="font-semibold">React.js Developer</span> at
+                Psyber Technologies , India
               </p>
+              <small>01-June-2022 to Present</small>
               <hr className="mb-8 opacity-5" />
-              <p className="mb-8">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit tempore
-                earum dolorum quo consequatur rem nihil hic ducimus rerum soluta
-                neque harum velit molestiae dignissimos distinctio dolorum nisi
-                labore culpa nihil. <br />
-                <br />
-                Qui doloremque quod sit accusantium unde totam inventore
-                cupiditate ratione esse maxime eum recusandae ducimus.
-              </p>
+              <ul className="mb-8">
+                <li className="list-disc">
+                  Build and develop sites with React.js and Node.js .
+                </li>
+                <li className="list-disc">
+                  Assist the Next.js team to build and run the project.
+                </li>
+                <li className="list-disc">
+                  Responsible for front-end design and development for all
+                  projects .
+                </li>
+              </ul>
             </div>
             <button className="btn btn-md bg-accent hover:bg-secondary-hover transition-all">
               Contact me
