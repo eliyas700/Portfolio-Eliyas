@@ -14,7 +14,7 @@ import { Pagination, Navigation } from "swiper";
 const Skills = () => {
   return (
     <section className="bg-primary py-12">
-      <h2 className="text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3  text-center">
+      <h2 className="text-3xl lg:text-4xl font-medium lg:font-extrabold mb-8  text-center">
         My Skills
       </h2>
       <>
@@ -35,7 +35,7 @@ const Skills = () => {
             return (
               <SwiperSlide key={index} className="bg-transparent">
                 <img
-                  className="w-fit bg-transparent"
+                  className="w-[86px] bg-transparent"
                   src={skill.image}
                   alt=""
                 />

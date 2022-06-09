@@ -35,7 +35,9 @@ import SkillImg5 from "./assets/img/skills/nextjs.png";
 import SkillImg6 from "./assets/img/skills/nodejs.png";
 import SkillImg7 from "./assets/img/skills/git.png";
 import SkillImg8 from "./assets/img/skills/figma.png";
-
+import SkillImg9 from "./assets/img/skills/firebase.png";
+import SkillImg10 from "./assets/img/skills/mongo.png";
+import SkillImg11 from "./assets/img/skills/tailwind.png";
 // testimonial images
 import TestiImage1 from "./assets/img/testimonials/testimonial-1.webp";
 import TestiImage2 from "./assets/img/testimonials/testimonial-2.webp";
@@ -195,6 +197,15 @@ export const skills = [
   {
     image: SkillImg8,
   },
+  {
+    image: SkillImg9,
+  },
+  {
+    image: SkillImg10,
+  },
+  {
+    image: SkillImg11,
+  },
 ];
 
 // services
@@ -256,12 +267,12 @@ export const contact = [
     icon: <FiMail />,
     title: "Have a question?",
     subtitle: "I am here to help you.",
-    description: "Email me at hello@youremail.com",
+    description: "Email me at eliyashossain700@gmail.com",
   },
   {
     icon: <FiMapPin />,
     title: "Current Location",
-    subtitle: "Bucharest, Romania",
+    subtitle: "Khulna,Bangladesh",
     description: "Serving clients worldwide",
   },
 ];

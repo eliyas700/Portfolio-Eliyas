@@ -25,7 +25,7 @@ const Footer = () => {
             <img className="w-[220px]" src={Logo} alt="" />
           </div>
           <p className="text-paragraph opacity-80 text-[15px]">
-            &copy; 2022 Cristian Mihai. All rights reserved.
+            &copy; 2022 Eliyas Hossain. All rights reserved.
           </p>
         </div>
       </div>
