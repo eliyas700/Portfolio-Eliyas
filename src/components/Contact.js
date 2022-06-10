@@ -35,8 +35,8 @@ const Contact = () => {
             Contact me
           </h2>
           <p className="subtitle">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam
-            labore nisium illum cupiditate reiciendis a numquam
+            Always love to be connected with new people , and listen their words
+            and suggestions. Stay Connected!
           </p>
         </div>
         <div className="flex flex-col lg:gap-x-8 lg:flex-row">

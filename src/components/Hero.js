@@ -19,8 +19,7 @@ const Hero = () => {
               I Build & Design <br /> Web Interfaces.
             </h1>
             <p className="pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left">
-              Lorem ipsum dolor sit amet consectetur adipisicing illo ad labore
-              dolor elit.
+              Frontend Developer || React.js Developer || MERN Stack Developer
             </p>
             <a
               href={resume}
@@ -31,7 +30,7 @@ const Hero = () => {
             </a>
           </div>
           <div className="hidden lg:flex flex-1 justify-end items-end h-full">
-            <img className="w-[70%]" src={img} alt="" />
+            <img title="Eliyas Hossain" className="w-[70%]" src={img} alt="" />
           </div>
         </div>
       </div>

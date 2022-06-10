@@ -12,8 +12,9 @@ const Services = () => {
             What I do for clients
           </h2>
           <p className="subtitle">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam
-            labore nisium illum cupiditate reiciendis a numquam
+            Build and Develop websites with a high professional attitude and
+            punctuality. With every line of code, I Strive to make the web a
+            beautiful place.
           </p>
         </div>
         <div className="grid lg:grid-cols-4 gap-8">
