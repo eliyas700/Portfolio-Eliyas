@@ -2,10 +2,9 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 // import contact data
 import { contact } from "../data";
-
+import { toast } from "react-toastify";
 const Contact = () => {
   const form = useRef();
-
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -18,7 +17,9 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          toast.success(
+            "Your email has been sent successfully, Eliyas will Contact with you soon."
+          );
           e.target.reset();
         },
         (error) => {
@@ -63,12 +64,14 @@ const Contact = () => {
           >
             <div className="flex gap-8">
               <input
+                required
                 className="input"
                 type="text"
                 placeholder="Your name"
                 name="user_name"
               />
               <input
+                required
                 className="input"
                 type="email"
                 placeholder="Your email"
@@ -76,12 +79,14 @@ const Contact = () => {
               />
             </div>
             <input
+              required
               className="input"
               type="text"
               placeholder="Subject"
               name="user_subject"
             />
             <textarea
+              required
               className="textarea"
               placeholder="Your message"
               name="message"

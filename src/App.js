@@ -12,11 +12,13 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Testimonials from "./components/Testimonials";
 import BackTopBtn from "./components/BackTopBtn";
-
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 const App = () => {
   return (
     <div className="bg-white relative">
       <Header />
+      <ToastContainer />
       <Hero />
       <Skills />
       <About />
