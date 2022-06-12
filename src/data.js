@@ -226,25 +226,25 @@ export const services = [
     icon: <FiLayout />,
     name: "Web Design",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.",
+      "Design Sites as Clients Requirement.Love to work with Perfection. Try to Design the Site as like the design template",
   },
   {
     icon: <FiSettings />,
     name: "Web Development",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.",
+      "Work with previously  built sites, and modify them as client requirements. Add new functionality and update site",
   },
   {
     icon: <FiPenTool />,
-    name: "Branding",
+    name: "Build Dynamic Sites",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.",
+      "Make fully functional dynamic sites , implement updated features, make attractive look.",
   },
   {
     icon: <FiTag />,
     name: "Responsive Web Design",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.",
+      "Responsiveness is  a very important part of Modern websites. I build fully (Mobile, PC, Tablet) responsive sites",
   },
 ];
 

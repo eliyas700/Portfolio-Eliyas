@@ -38,7 +38,7 @@ const About = () => {
               </ul>
             </div>
             <button className="btn btn-md bg-accent hover:bg-secondary-hover transition-all">
-              Contact me
+              Know More About me
             </button>
           </div>
         </div>
