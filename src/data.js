@@ -19,12 +19,12 @@ import BehanceBrandIcon from "./assets/img/brands/behance.png";
 import DribbbleBrandIcon from "./assets/img/brands/dribbble.png";
 
 // projects images
-import Project1 from "./assets/img/projects/p1.webp";
-import Project2 from "./assets/img/projects/p2.webp";
-import Project3 from "./assets/img/projects/p3.webp";
-import Project4 from "./assets/img/projects/p4.webp";
-import Project5 from "./assets/img/projects/p5.webp";
-import Project6 from "./assets/img/projects/p6.webp";
+import Project1 from "./assets/img/projects/ReycoAutomotive/Reyco-Automotive.png";
+import Project2 from "./assets/img/projects/GadgetWorld/Home-Gadget-World.png";
+import Project3 from "./assets/img/projects/Tourisman/TourisMan.png";
+import Project4 from "./assets/img/projects/EZ-Eli-Scents/https-ez-eli-scents-eliyas-netlify-app.png";
+import Project5 from "./assets/img/projects/CryptoCafe/Eliyas-Crypto-Cafe.png";
+import Project6 from "./assets/img/projects/CalculatorApp/Calculator (1).png";
 
 // skills images
 import SkillImg1 from "./assets/img/skills/html5.png";
@@ -120,38 +120,50 @@ export const projectsData = [
   {
     id: "1",
     image: Project1,
-    name: "project name 1",
-    category: "UI/UX design",
+    name: "Reyco Automotive",
+    category: "Full Stack",
+    about:
+      "This Site is a fully Dynamic Car Parts Selling site. User Can Buy any products and can pay throughout Credit Card. Admin Panel can manage the overall site",
   },
   {
     id: "2",
     image: Project2,
-    name: "project name 2",
-    category: "web development",
+    name: "Gadget World",
+    category: "Full Stack",
+    about:
+      "It's a Gadget gears selling fully functional site, User can easily buy their favorite gadget items from here, give their valuable feedbacks also.But they must be Authentic user.",
   },
   {
     id: "3",
     image: Project3,
-    name: "project name 3",
-    category: "UI/UX design",
+    name: "Tourisman",
+    category: "Frontend",
+    about:
+      "A single person Tourist Service Site. User can easily choose any available package and book that service. User can log in through email password or Google/Github/Facebook",
   },
   {
     id: "4",
     image: Project4,
-    name: "project name 4",
-    category: "branding",
+    name: "EZ-ElI-Scents",
+    category: "Frontend",
+    about:
+      "A small e-commerce perfume selling site.User can choose the perfect perfume for them and they buy it / add it to cart. They can easily manage the cart ",
   },
   {
     id: "5",
     image: Project5,
-    name: "project name 5",
-    category: "web development",
+    name: "Crypto Cafe",
+    category: "Web App",
+    about:
+      "A site of some crypto currencies , User can easily click on any available crypto item and can see the details about the crypto item. Users also can Contact with the site offices.",
   },
   {
     id: "6",
     image: Project6,
-    name: "project name 6",
-    category: "web development",
+    name: "My Calculator ",
+    category: "Web App",
+    about:
+      "A small and simple fully functional Calculator app. Any User can use this calculator as a regular calculator. All the functionalities are available there.",
   },
 ];
 
@@ -161,13 +173,13 @@ export const projectsNav = [
     name: "all",
   },
   {
-    name: "UI/UX Design",
+    name: "Full Stack",
   },
   {
-    name: "web development",
+    name: "Frontend",
   },
   {
-    name: "branding",
+    name: "Web App",
   },
 ];
 
@@ -230,7 +242,7 @@ export const services = [
   },
   {
     icon: <FiTag />,
-    name: "SEO",
+    name: "Responsive Web Design",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.",
   },
