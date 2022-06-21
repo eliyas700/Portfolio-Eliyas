@@ -124,6 +124,10 @@ export const projectsData = [
     category: "Full Stack",
     about:
       "This Site is a fully Dynamic Car Parts Selling site. User Can Buy any products and can pay throughout Credit Card. Admin Panel can manage the overall site",
+    live: "https://reyco-automotive.web.app/",
+    code: "https://github.com/eliyas700/Assignment-12-Reyco-Automotive-Client-.git",
+    backend:
+      "https://github.com/programming-hero-web-course1/manufacturer-website-server-side-eliyas700.git",
   },
   {
     id: "2",
@@ -132,6 +136,10 @@ export const projectsData = [
     category: "Full Stack",
     about:
       "It's a Gadget gears selling fully functional site, User can easily buy their favorite gadget items from here, give their valuable feedbacks also.But they must be Authentic user.",
+    live: "https://gadget-world-624e5.web.app/",
+    code: "https://github.com/eliyas700/Assignment-11-Gadget-World-",
+    backend:
+      "https://github.com/ProgrammingHeroWC4/warehouse-management-server-side-eliyas700",
   },
   {
     id: "3",
@@ -140,6 +148,8 @@ export const projectsData = [
     category: "Frontend",
     about:
       "A single person Tourist Service Site. User can easily choose any available package and book that service. User can log in through email password or Google/Github/Facebook",
+    live: "https://tourisman-fd3d5.web.app/",
+    code: "https://github.com/eliyas700/Assignment-10-TourisMan-",
   },
   {
     id: "4",
@@ -148,6 +158,8 @@ export const projectsData = [
     category: "Frontend",
     about:
       "A small e-commerce perfume selling site.User can choose the perfect perfume for them and they buy it / add it to cart. They can easily manage the cart ",
+    live: "https://ez-eli-scents-eliyas.netlify.app/",
+    code: "https://github.com/eliyas700/Assignment-8-EZ-ELI-Scents-",
   },
   {
     id: "5",
@@ -156,6 +168,8 @@ export const projectsData = [
     category: "Web App",
     about:
       "A site of some crypto currencies , User can easily click on any available crypto item and can see the details about the crypto item. Users also can Contact with the site offices.",
+    live: "https://crypto-cafe-eliyas.netlify.app/",
+    code: "https://github.com/eliyas700/Crypto-Cafe",
   },
   {
     id: "6",
@@ -164,6 +178,8 @@ export const projectsData = [
     category: "Web App",
     about:
       "A small and simple fully functional Calculator app. Any User can use this calculator as a regular calculator. All the functionalities are available there.",
+    live: "https://eliyas700.github.io/Calculator/index.html",
+    code: "https://github.com/eliyas700/Calculator",
   },
 ];
 

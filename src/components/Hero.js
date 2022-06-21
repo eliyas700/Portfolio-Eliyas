@@ -23,7 +23,7 @@ const Hero = () => {
             </p>
             <a
               href={resume}
-              className="btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all"
+              className="btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all text-white"
               download
             >
               Get My Resume
