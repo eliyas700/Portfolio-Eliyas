@@ -39,8 +39,8 @@ import SkillImg9 from "./assets/img/skills/firebase.png";
 import SkillImg10 from "./assets/img/skills/mongo.png";
 import SkillImg11 from "./assets/img/skills/tailwind.png";
 // testimonial images
-import TestiImage1 from "./assets/img/testimonials/testimonial-1.webp";
-import TestiImage2 from "./assets/img/testimonials/testimonial-2.webp";
+import TestiImage1 from "./assets/womanwithhijab.webp";
+import TestiImage2 from "./assets/rwl5o5xm2tv71.webp";
 import TestiImage3 from "./assets/img/testimonials/testimonial-3.webp";
 
 // navigation
@@ -240,7 +240,7 @@ export const skills = [
 export const services = [
   {
     icon: <FiLayout />,
-    name: "Web Design",
+    name: "PSD To HTML",
     description:
       "Design Sites as Clients Requirement.Love to work with Perfection. Try to Design the Site as like the design template",
   },
@@ -269,23 +269,23 @@ export const testimonials = [
   {
     authorImg: TestiImage1,
     authorText:
-      "Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.",
-    authorName: "Olivia Doe",
-    authorPosition: "Head of Design, Google",
+      "Love the simplicity of the service and the prompt customer support.Good Communication Skills, work with perfection ",
+    authorName: "Aysha ",
+    authorPosition: "Employee, Amazon, New York",
   },
   {
     authorImg: TestiImage2,
     authorText:
-      "Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.",
-    authorName: "Olivia Doe",
-    authorPosition: "Head of Design, Google",
+      "Eliyas did a high quality job and when we encountered a difficulty, he got it resolved right away! Thanks Eliyas!.",
+    authorName: "Mark",
+    authorPosition: "United States,Denver",
   },
   {
     authorImg: TestiImage3,
     authorText:
-      "Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.",
+      "Did an excellent job, working through it fully and completing it well",
     authorName: "Olivia Doe",
-    authorPosition: "Head of Design, Google",
+    authorPosition: "Switzerland",
   },
 ];
 
