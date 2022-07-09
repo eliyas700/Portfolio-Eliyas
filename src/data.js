@@ -12,9 +12,10 @@ import {
 } from "react-icons/fi";
 import { FaLinkedin } from "react-icons/fa";
 // companies icons
-import FreelancerBrandIcon from "./assets/img/brands/freelancer.png";
-import UpworkBrandIcon from "./assets/img/brands/upwork.png";
-import FiverBrandIcon from "./assets/img/brands/fiverr.png";
+import FreelancerBrandIcon from "./assets/img/brands/kisspng-freelancer-freelance-marketplace-logo-job-graphic-5b0f9af1896108.8784209915277493615627.png";
+import UpworkBrandIcon from "./assets/img/brands/Upwork-Logo.png";
+import FiverBrandIcon from "./assets/img/brands/Fiverr_logo_PNG4.png";
+import StackOverflowIcon from "./assets/img/brands/kisspng-stack-overflow-stack-exchange-software-developer-m-jquery-5b1e5381583e14.1178991515287141133615.png";
 import BehanceBrandIcon from "./assets/img/brands/behance.png";
 import DribbbleBrandIcon from "./assets/img/brands/dribbble.png";
 
@@ -33,11 +34,12 @@ import SkillImg3 from "./assets/img/skills/js.png";
 import SkillImg4 from "./assets/img/skills/reactjs.png";
 import SkillImg5 from "./assets/img/skills/nextjs.png";
 import SkillImg6 from "./assets/img/skills/nodejs.png";
-import SkillImg7 from "./assets/img/skills/git.png";
-import SkillImg8 from "./assets/img/skills/figma.png";
+import SkillImg12 from "./assets/img/skills/git.png";
+import SkillImg11 from "./assets/img/skills/figma.png";
 import SkillImg9 from "./assets/img/skills/firebase.png";
 import SkillImg10 from "./assets/img/skills/mongo.png";
-import SkillImg11 from "./assets/img/skills/tailwind.png";
+import SkillImg8 from "./assets/img/skills/tailwind.png";
+import SkillImg7 from "./assets/img/skills/bootstrap-logo-shadow.png";
 // testimonial images
 import TestiImage1 from "./assets/womanwithhijab.webp";
 import TestiImage2 from "./assets/rwl5o5xm2tv71.webp";
@@ -106,13 +108,17 @@ export const brands = [
     href: "",
   },
   {
-    img: BehanceBrandIcon,
+    img: StackOverflowIcon,
     href: "",
   },
-  {
-    img: DribbbleBrandIcon,
-    href: "",
-  },
+  // {
+  //   img: BehanceBrandIcon,
+  //   href: "",
+  // },
+  // {
+  //   img: DribbbleBrandIcon,
+  //   href: "",
+  // },
 ];
 
 // projects
@@ -203,36 +209,51 @@ export const projectsNav = [
 export const skills = [
   {
     image: SkillImg1,
+    name: "HTML",
   },
   {
     image: SkillImg2,
+    name: "CSS",
   },
   {
     image: SkillImg3,
+    name: "JavaScript",
   },
   {
     image: SkillImg4,
+    name: "ReactJS",
   },
   {
     image: SkillImg5,
+    name: "NextJS",
   },
   {
     image: SkillImg6,
+    name: "NodeJS",
   },
   {
     image: SkillImg7,
+    name: "Bootstrap",
   },
   {
     image: SkillImg8,
+    name: "Tailwind CSS",
   },
   {
     image: SkillImg9,
+    name: "Firebase",
   },
   {
     image: SkillImg10,
+    name: "MongoDB",
   },
   {
     image: SkillImg11,
+    name: "Figma",
+  },
+  {
+    image: SkillImg12,
+    name: "Git",
   },
 ];
 

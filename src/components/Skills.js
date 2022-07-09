@@ -35,9 +35,10 @@ const Skills = () => {
             return (
               <SwiperSlide key={index} className="bg-transparent">
                 <img
+                  title={skill?.name}
                   className="w-[86px] bg-transparent"
                   src={skill.image}
-                  alt=""
+                  alt={skill?.name}
                 />
               </SwiperSlide>
             );
