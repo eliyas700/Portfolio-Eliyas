@@ -16,7 +16,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 const App = () => {
   return (
-    <div className="bg-white relative">
+    <div className="bg-white relative overflow-x-hidden">
       <Header />
       <ToastContainer />
       <Hero />

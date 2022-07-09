@@ -96,20 +96,21 @@ export const social = [
 // companies
 export const brands = [
   {
-    img: FreelancerBrandIcon,
-    href: "",
-  },
-  {
     img: UpworkBrandIcon,
-    href: "",
+    href: "https://www.upwork.com/nx/find-work/best-matches",
   },
   {
     img: FiverBrandIcon,
-    href: "",
+    href: "https://www.fiverr.com/eliyas700?up_rollout=true",
+  },
+
+  {
+    img: FreelancerBrandIcon,
+    href: "https://www.freelancer.com/u/eliyas700",
   },
   {
     img: StackOverflowIcon,
-    href: "",
+    href: "https://stackoverflow.com/users/17895394/eliyas-hossain",
   },
   // {
   //   img: BehanceBrandIcon,
